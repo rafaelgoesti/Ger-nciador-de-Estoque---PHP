@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios - Sistema de Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="imagens/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li><a href="produtos.html"><i class="fas fa-box"></i> Produtos</a></li>
+                    <li><a href="relatorios.html"><i class="fas fa-file-alt"></i> Relatórios</a></li>
+                    <li><a href="configuracoes.html"><i class="fas fa-cog"></i> Configurações</a></li>
+                </ul>
+            </nav>
+        </aside> 
+
+        <main class="main-content">
+            <header>
+                <h1>Relatórios</h1>
+                <button class="btn-add">Gerar Relatório</button>
+            </header>
+
+            <section class="report-overview">
+                <div class="card">
+                    <h3>Total de Produtos Vendidos</h3>
+                    <p>100</p>
+                </div>
+                <div class="card">
+                    <h3>Produtos em Falta</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <h3>Valor Total Vendido</h3>
+                    <p>R$ 50.000,00</p>
+                </div>
+            </section>
+
+            <section class="detailed-reports">
+                <h2>Relatórios Detalhados</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Quantidade Vendida</th>
+                            <th>Data da Venda</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Notebook</td>
+                            <td>10</td>
+                            <td>01/09/2023</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Mouse</td>
+                            <td>20</td>
+                            <td>05/09/2023</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Teclado</td>
+                            <td>15</td>
+                            <td>10/09/2023</td>
+                        </tr>
+                        <!-- Mais linhas de relatórios -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

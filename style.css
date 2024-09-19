@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2d3436;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar h2 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #b2bec3;
+    font-weight: 500;
+}
+
+.sidebar nav ul li a:hover {
+    color: #dfe6e9;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn-add {
+    background-color: #0984e3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #74b9ff;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table table thead {
+    background-color: #0984e3;
+    color: #fff;
+}
+
+.product-table table th,
+.product-table table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.product-table table tbody tr:nth-child(even) {
+    background-color: #f4f4f9;
+}
+
+.btn-edit,
+.btn-delete {
+    background-color: #dfe6e9;
+    color: #2d3436;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #55efc4;
+}
+
+.btn-delete:hover {
+    background-color: #ff7675;
+}
+
+.dashboard-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #0984e3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.recent-products {
+    margin-top: 20px;
+}
+
+.recent-products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-products table thead {
+    background-color: #0984e3;
+    color: #fff;
+}
+
+.recent-products table th,
+.recent-products table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.report-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.detailed-reports {
+    margin-top: 20px;
+}
+
+.detailed-reports table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detailed-reports table thead {
+    background-color: #0984e3;
+    color: #fff;
+}
+
+.detailed-reports table th,
+.detailed-reports table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detailed-reports table tbody tr:nth-child(even) {
+    background-color: #f4f4f9;
+}
+
+.settings-form {
+    margin-top: 20px;
+}
+
+.settings-form form {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #0984e3;
+    outline: none;
+}
+
+.btn-add {
+    background-color: #0984e3;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-add:hover {
+    background-color: #74b9ff;
+    transition: background-color 0.3s;
+}
+
+
+.btn-add:hover {
+    background-color: #74b9ff;
+}
+
+.search-product {
+    margin-bottom: 20px;
+}
+
+.search-product input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-product input:focus {
+    border-color: #0984e3;
+    outline: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: 600;
+    color: #333;
+}
+
+
