@@ -1,6 +1,3 @@
-Claro! Aqui está o código completo em um único arquivo que você pode usar para criar seu README.md:
-
-```markdown
 # 📦 Sistema de Gerenciamento de Estoque
 
 Este é um sistema de gerenciamento de estoque que permite visualizar, adicionar e gerenciar produtos de forma simples e eficiente.
@@ -64,12 +61,3 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 ---
 
 Desenvolvido com ❤️ por [Seu Nome](https://github.com/seu-usuario).
-```
-
-### Instruções
-
-1. Crie um arquivo chamado `README.md` na raiz do seu projeto.
-2. Cole o código acima no arquivo.
-3. Atualize os campos conforme necessário, como links e informações de contato.
-
-Se precisar de mais alguma coisa, é só avisar!
