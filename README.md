@@ -12,6 +12,7 @@ Este é um sistema de gerenciamento de estoque que permite visualizar, adicionar
 
 - **HTML**: Estrutura básica do site.
 - **CSS**: Estilização da interface.
+-**PHP**: Interação com banco de dados
 - **JavaScript**: Funcionalidades interativas, como busca de produtos.
 
 ## 📁 Estrutura do Projeto
@@ -55,9 +56,9 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-- **Email**: seuemail@example.com
-- **LinkedIn**: [Seu Nome](https://www.linkedin.com/in/seu-nome)
+- **Email**: rafaelgoesti2021@gmail.com
+- **LinkedIn**: [rafaelgoesti](https://www.linkedin.com/in/rafael-goes-06b3342aa)
 
 ---
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/seu-usuario).
+Desenvolvido com ❤️ por [Rafael Góes](https://github.com/rafaelgoesti).
