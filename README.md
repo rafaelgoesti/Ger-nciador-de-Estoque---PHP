@@ -5,6 +5,7 @@ Este é um sistema de gerenciamento de estoque que permite visualizar, adicionar
 ## 📋 Funcionalidades
 
 - **Dashboard**: Visão geral do estoque com métricas como total de produtos, produtos em falta e valor total em estoque.
+![Texto Alternativo](imagens/img1.png)
 - **Gerenciamento de Produtos**: Adicione, edite e exclua produtos do estoque.
 - **Relatórios**: Gere relatórios detalhados sobre as vendas e produtos.
 
